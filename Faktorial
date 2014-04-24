@@ -1,0 +1,15 @@
+public class Faktorial{
+	public int fakt(int i){
+		if(i>0){
+			return (i) * fakt(i-1);
+		}
+		else{
+			return 1;
+		}
+	}
+	
+	public static void main(String[] args){
+			Faktorial f=new Faktorial();
+			System.out.println(f.fakt(3));
+			}
+		}
